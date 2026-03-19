@@ -1,6 +1,6 @@
-# NOTE: Ensure that your EKS cluster is up and running before proceeding
+# NOTE: Ensure that your EKS cluster is up and running before proceeding (Bastion host as well)
 
-🔧 1. Install kubectl
+🔧 1. Install kubectl in Bastion host
 # official binary – recommended
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
@@ -97,5 +97,4 @@ pathnex        pathnex-nginx-service                     LoadBalancer   172.20.1
 # After completion, To delete the namespace and its resources 
 kubectl delete namespace monitoring pathnex argocd
 
-
-# Note: Don't forget to delete the EKS cluster after the lab.
+# Note: Don't forget to delete the EKS cluster and bastion host after the lab.
