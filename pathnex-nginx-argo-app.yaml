@@ -14,7 +14,7 @@ spec:
         - values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: argocd
+    namespace: nginx   # <-- Deploy to `nginx` namespace
   syncPolicy:
     automated:
       prune: true
