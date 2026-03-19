@@ -1,3 +1,5 @@
+# NOTE: Ensure that your EKS cluster is up and running before proceeding
+
 🔧 1. Install kubectl
 # official binary – recommended
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
