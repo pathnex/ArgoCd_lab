@@ -1,0 +1,6 @@
+apiVersion: v2
+name: pathnex-nginx
+description: A Helm chart to deploy Pathnex nginx application
+type: application
+version: 0.1.0
+appVersion: "1.25"
