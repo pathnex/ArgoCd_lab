@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/pathnex/ArgoCd_lab.git'
-    targetRevision: HEAD
+    targetRevision: main
     path: grafana
     helm:
       valueFiles:
